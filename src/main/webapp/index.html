@@ -65,16 +65,16 @@
                         </a>
                     </div>
                     <div class="panel panel-default menu-first">
-                        <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true"
+                        <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="false"
                            aria-controls="collapseOne">
                             <i class="icon-user-md icon-large"></i> 用户管理</a>
                         </a>
 
-                        <div id="collapseOne" class="panel-collapse collapse " >
+                        <div id="collapseOne" class="panel-collapse collapse ">
                             <ul class="nav nav-list menu-second">
-                                <li><a href="p1.html"><i class="icon-user"></i> 部门管理</a></li>
-                                <li><a href="p1.html"><i class="icon-edit"></i> 职务管理</a></li>
-                                <li><a href="p1.html"><i class="icon-trash"></i> 员工管理</a></li>
+                                <li><a href="home_department.html"><i class="icon-user"></i> 部门管理</a></li>
+                                <li><a href="home_post.html"><i class="icon-edit"></i> 职务管理</a></li>
+                                <li><a href="home_staff.html"><i class="icon-trash"></i> 员工管理</a></li>
                             </ul>
                         </div>
                     </div>
@@ -87,7 +87,7 @@
                             <ul class="nav nav-list menu-second">
                                 <li><a href="#"><i class="icon-user"></i> 资源管理</a></li>
                                 <li><a href="#"><i class="icon-edit"></i> 资源搜索</a></li>
-                                <li><a href="#"><i class="icon-trash"></i> 资源统计</a></li>
+                                <li><a href="res_statistics.html"><i class="icon-trash"></i> 资源统计</a></li>
                             </ul>
                         </div>
                     </div>
@@ -171,13 +171,13 @@
 <script>
     /*Bootlint工具用于对页面中的HTML标签以及Bootstrapclass的使用进行检测*/
     /*(function () {
-        var s = document.createElement("script");
-        s.onload = function () {
-            bootlint.showLintReportForCurrentDocument([]);
-        };
-        s.src = "js/bootlint.js";
-        document.body.appendChild(s)
-    })();*/
+     var s = document.createElement("script");
+     s.onload = function () {
+     bootlint.showLintReportForCurrentDocument([]);
+     };
+     s.src = "js/bootlint.js";
+     document.body.appendChild(s)
+     })();*/
 
     $(function () {
         $('dt').click(function () {
